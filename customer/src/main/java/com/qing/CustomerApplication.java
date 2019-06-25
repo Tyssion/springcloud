@@ -3,7 +3,6 @@ package com.qing;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-
 /**
  * @Author: zhching
  * @Date: 2019/6/24 15:34

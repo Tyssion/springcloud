@@ -1,8 +1,8 @@
 package com.qing.dao;
 
 import com.qing.entity.User;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
-import org.mybatis.spring.annotation.MapperScan;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import java.util.List;
  * @Date: 2019/6/24 16:53
  * @Version 1.0
  */
-@MapperScan
+@Mapper
 public interface UserDao {
     @Select("select id,name,age from t_user")
     List<User> getUser();
