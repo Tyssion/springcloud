@@ -23,6 +23,9 @@ public class UserController {
     @Value("${server.port}")
     private String port;
 
+    /**
+     *  测试zuul负载均衡的作用
+     */
     @GetMapping("/getPort")
     public String getPort(){
         return "当前端口号：" + this.port;
