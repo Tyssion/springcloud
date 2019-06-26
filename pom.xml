@@ -12,7 +12,8 @@
 		<module>eurekaserver</module>
 		<module>producer</module>
 		<module>customer</module>
-	</modules>
+        <module>zuul</module>
+    </modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
