@@ -14,7 +14,9 @@
 		<module>customer</module>
         <module>zuul</module>
         <module>ribbon</module>
-    </modules>
+        <module>feign</module>
+		<module>feign</module>
+	</modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
