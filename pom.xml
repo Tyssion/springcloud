@@ -17,7 +17,9 @@
         <module>feign</module>
 		<module>feign</module>
 		<module>hystrix</module>
-	</modules>
+        <module>nativeconfigserver</module>
+        <module>nativeconfigclient</module>
+    </modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
